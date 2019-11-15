@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Início</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        .fundo{
+            width: 100%;
+            height: 100%;
+        }
+        .distancia{
+            padding-bottom : 20%;
+            margin-top: 38%;
+        }
+        .distancia2{
+            padding-bottom : 10%;
+        }
+        .distancia3{
+            padding-bottom: 5%;
+        }
+        .icones{
+            width : 128px;
+            height : 128px;
+        }
+        .imgPromo{
+            width : 100%; 
+            height : 600px; 
+        }
+        .imgPromoSmall{
+            width : 100%; 
+            height : 300px; 
+        }
+        .bg1{
+            background-color: rgba(255, 255, 255, 0.61);
+            color: black;
+        }
+        body{
+            background-image: url("imagens/cafe4.jpg");
+            background-size: 100%;
+            background-attachment: fixed;
+            }
+        .cor{
+           background-color: rgba(255, 255, 255, 0.61);
+        }
+        .a1{
+            padding: 5%;
+        }
+        .cor2{ 
+                background-color: rgba(0, 0, 0, 0.781);
+        }
+        .tamBotao{
+            width: 0%;
+            margin: 0 auto;
+        }
+        .fonte{
+            font-family: 'Times New Roman';
+            font-style: italic;
+            color: rgb(0, 0, 0);
+        }
+        .a12 {color: rgb(0, 0, 0); text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em}
+
+        .margem{
+            margin-left: 22%;
+        }
+    </style>
+</head>
+
+<body>         
+        <nav class="navbar navbar-expand-xl bg1 navbar-light cor">
+                <a class="navbar-brand" href="index.html"><img src="imagens/cafe2.png" alt="café" title="Logo marca aqui"></a>
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse margem" id="collapsibleNavbar">
+                        <div class="mr-auto">
+                            <ul class="navbar-nav lead">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link btn btn-outline-light cor2 mr-1 text-light">Página Inicial</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="Apresentação.html" class="nav-link btn btn-outline-light cor2 mr-1 text-light">Apresentação</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="QuemSomos.html" class="nav-link btn btn-outline-light cor2 mr-1 text-light">Quem somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="Produtos.html" class="nav-link btn btn-outline-light cor2 mr-1 text-light">Produtos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="Cadastro.html" class="nav-link btn btn-outline-light cor2 mr-1 text-light">Cadastre-se</a> 
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item" title="Nome do futuro usuario aqui">
+                                    NOME USUÁRIO
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+    <header class="">
+        <div class="container mt-5 text-center d-none d-xl-block a12">
+            <h2 class="fundo display-2 fonte">BEM-VINDO</h2>
+            <h4 class="lead display-3 fonte">Sua cafeteria online</h4>
+        </div>
+        <div class="container mt-5 text-center d-none d-xl-none d-lg-block a12">
+            <h2 class="fundo display-2 fonte a12">BEM-VINDO</h2>
+            <h4 class="lead display-3 fonte">Sua cafeteria online</h4>
+        </div>
+        <div class="container mt-5 text-center d-lg-none a12">
+            <h2 class="fundo display-2 fonte">BEM-VINDO</h2>
+            <h4 class="lead display-3 fonte">Sua cafeteria online</h4>
+        </div>
+    </header>        
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>

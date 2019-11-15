@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        .cor{
+           background-color: rgba(255, 255, 255, 0.61);
+        }
+        .a1{
+            padding: 5%;
+        }
+        .cor2{ 
+            background-color: rgba(0, 0, 0, 0.685);
+        }
+        .tamBotao{
+            width: 0%;
+            margin: 0 auto;
+        }
+        .fonte{
+            font-family: 'Times New Roman';
+            font-style: italic;
+            color: rgb(0, 0, 0);
+        }
+        .a12 {color: rgb(0, 0, 0); text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em}
+
+        body{
+            background-image: url("imagens/cafe14.jpg");
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        .margem{
+            margin-left: 22%;
+        }
+
+    </style>
+</head>
+<body>  
+        <nav class="navbar navbar-expand-xl bg1 navbar-light cor">
+                <a class="navbar-brand" href="index.html"><img src="imagens/cafe2.png" alt="café" title="Logo marca aqui"></a>
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse margem" id="collapsibleNavbar">
+                        <div class="mr-auto">
+                            <ul class="navbar-nav lead">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link btn btn-outline-light cor2 mr-1 text-light">Página Inicial</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="Apresentação.html" class="nav-link btn btn-outline-light cor2 mr-1 text-light">Apresentação</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="QuemSomos.html" class="nav-link btn btn-outline-light cor2 mr-1 text-light">Quem somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="Produtos.html" class="nav-link btn btn-outline-light cor2 mr-1 text-light">Produtos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="Cadastro.html" class="nav-link btn btn-outline-light cor2 mr-1 text-light">Cadastre-se</a> 
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item" title="Nome do futuro usuario aqui">
+                                    NOME USUÁRIO
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    
+    <div class="container my-5"> <!-- container para nao encostar no canto -->
+        <div class="row mb-5">
+
+
+            <div class="col-lg-3 col-sm-6"> <!-- tamanho das divs -->
+                <div class="card h-100">
+                    <img class="card-img-top" src="imagens/cafei10.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Café do Ponto</h4>
+                        <br>
+                        <h6 class="card-subtitle text-justify">O melhor video game da geração atual, vários jogos exclusivos.
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'> <!-- rodapé -->
+                        <form action="add_item.php" method="POST">
+                            <button class="btn btn-outline-success btn-block card-link">
+                                <label class="mr-3 mt-2">R$ 18,00</label>
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras">
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6"> <!--  tamanho dos cards e resposividades para eles, se sm ou menor pega 6 espacos -->
+                <div class="card h-100"> <!--  criacao da card, pegado do bootstrap , h100 padroniza altura de todas -->
+                    <img class="card-img-top" src="imagens/cafei9.jpg"> <!-- card img top, configura imagem dentro do card  -->
+                    <div class="card-body"> <!--  corpo do card,  -->
+                        <h4 class="card-title text-center mb-2">Café Bom Jesus</h4> <!--  classes do bootstrap, configurar como titulo de um cartao card title   -->
+                        <br>
+                        <h6 class="card-subtitle text-justify">A mesma bosta, com um pouco mais resolução e bem mais caro. <!--  -->
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'> <!-- card footer, ele da efeito de cor diferente e borda, rodapé       backgorund white, e borda -->
+                        <form action="add_item.php" method="POST"> 
+                            <button class="btn btn-outline-success btn-block card-link"> <!-- classes q formam o botao -->
+                                <label class="mr-3 mt-2">R$ 15,00</label> <!--  -->
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras">
+                            </button>
+                        </form>
+                    </div>     <!-- fim footer -->
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="card h-100">
+                    <img class="card-img-top" src="imagens/cafei7.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Astro Café</h4>
+                        <br>
+                        <h6 class="card-subtitle text-justify">Até é legal, mais não tem jogo bom.
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>
+                        <form action="add_item.php" method="POST">
+                            <button class="btn btn-outline-success btn-block card-link">
+                                <label class="mr-3 mt-2">R$ 25,00</label>
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras">
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="card h-100">
+                    <img class="card-img-top" src="imagens/cafei8.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Café L'Or</h4>
+                        <br>
+                        <h6 class="card-subtitle text-justify">Mesma bosta do outro, ainda sem jogos e caro pra cacete.
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>
+                        <form action="add_item.php" method="POST">
+                            <button class="btn btn-outline-success btn-block card-link">
+                                <label class="mr-3 mt-2">R$ 35,00</label>
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras">
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- segunda fileira de produtos -->
+<div>
+            <div class="container my-5"> <!-- container para nao encostar no canto -->
+                <div class="row mb-5">
+        
+        
+                    <div class="col-lg-3 col-sm-6"> <!-- tamanho das divs -->
+                        <div class="card h-100">
+                            <img class="card-img-top" src="imagens/cafei2.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title text-center mb-2">Café Brasileiro</h4>
+                                <br>
+                                <h6 class="card-subtitle text-justify">O melhor video game da geração atual, vários jogos exclusivos.
+                                    <br>
+                                    <br>
+                                </h6>
+                                <br>
+                            </div>
+                            <div class='card-footer bg-white border-0'> <!-- rodapé -->
+                                <form action="add_item.php" method="POST">
+                                    <button class="btn btn-outline-success btn-block card-link">
+                                        <label class="mr-3 mt-2">R$ 8,00</label>
+                                        <img src="imagens/carrinho_p.png" alt="Carrinho de compras">
+                                    </button>
+                                </form>
+                            </div>     
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-sm-6"> <!--  tamanho dos cards e resposividades para eles, se sm ou menor pega 6 espacos -->
+                        <div class="card h-100"> <!--  criacao da card, pegado do bootstrap , h100 padroniza altura de todas -->
+                            <img class="card-img-top" src="imagens/cafei1.png"> <!-- card img top, configura imagem dentro do card  -->
+                            <div class="card-body"> <!--  corpo do card,  -->
+                                <h4 class="card-title text-center mb-2">Café Pelé</h4> <!--  classes do bootstrap, configurar como titulo de um cartao card title   -->
+                                <br>
+                                <h6 class="card-subtitle text-justify">A mesma bosta, com um pouco mais resolução e bem mais caro. <!--  -->
+                                    <br>
+                                    <br>
+                                </h6>
+                                <br>
+                            </div>
+                            <div class='card-footer bg-white border-0'> <!-- card footer, ele da efeito de cor diferente e borda, rodapé       backgorund white, e borda -->
+                                <form action="add_item.php" method="POST"> 
+                                    <button class="btn btn-outline-success btn-block card-link"> <!-- classes q formam o botao -->
+                                        <label class="mr-3 mt-2">R$ 9,00</label> <!--  -->
+                                        <img src="imagens/carrinho_p.png" alt="Carrinho de compras">
+                                    </button>
+                                </form>
+                            </div>     <!-- fim footer -->
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="imagens/cafei11.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title text-center mb-2">Café 3 Corações descafeinado</h4>
+                                <br>
+                                <h6 class="card-subtitle text-justify">Até é legal, mais não tem jogo bom.
+                                    <br>
+                                    <br>
+                                </h6>
+                                <br>
+                            </div>
+                            <div class='card-footer bg-white border-0'>
+                                <form action="add_item.php" method="POST">
+                                    <button class="btn btn-outline-success btn-block card-link">
+                                        <label class="mr-3 mt-2">R$ 22,00</label>
+                                        <img src="imagens/carrinho_p.png" alt="Carrinho de compras">
+                                    </button>
+                                </form>
+                            </div>     
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="imagens/cafei5.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title text-center mb-2">Café Moka</h4>
+                                <br>
+                                <h6 class="card-subtitle text-justify">Mesma bosta do outro, ainda sem jogos e caro pra cacete.
+                                    <br>
+                                    <br>
+                                </h6>
+                                <br>
+                            </div>
+                            <div class='card-footer bg-white border-0'>
+                                <form action="add_item.php" method="POST">
+                                    <button class="btn btn-outline-success btn-block card-link">
+                                        <label class="mr-3 mt-2">R$ 5,00</label>
+                                        <img src="imagens/carrinho_p.png" alt="Carrinho de compras">
+                                    </button>
+                                </form>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+
+
+
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
